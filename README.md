@@ -1,6 +1,16 @@
 # Cool-Ubuntu-For-DL
 Setup for a deep learning server.
 
+## Boot with legacy mode
+Press E with boot ubuntu live CD, you will see the options.
+
+## Disable nouveau when boot if you are seeing nouveau errors.
+* Add nouveau.modeset=0 to the end of the linux line, before ----
+* Press F10 to boot.
+
+## Fix system lead.
+(Using boot-repair in UEFI boot mode)[http://blog.csdn.net/piaocoder/article/details/50589667]
+
 ## Before start
 I was planning to write a script for install all the depandences. 
 But I found that I can not keep up with the updates of all the depandences. 
