@@ -5,6 +5,7 @@ Setup for a deep learning server.
 Press E with boot ubuntu live CD, you will see the options.
 
 ## Disable nouveau when boot if you are seeing nouveau errors.
+* Press 'e'
 * Add nouveau.modeset=0 to the end of the linux line, before ----
 * Press F10 to boot.
 
