@@ -60,11 +60,17 @@ There is a very cool scrip to install a vim with many useful plugins, [here](htt
 
 ## Some default confit for Git
 ```
-git config --global user.email "YuhangSong2017@gmail.com"
+git config --global user.email "YuhangSong.China@gmail.com"
 git config --global user.name "YuhangSong"
 git config --global push.default "current"
 git config --global pull.default "current" 
 git config --global credential.helper "cache --timeout=36000000000000000"
+
+git config --local user.email "YuhangSong.China@gmail.com"
+git config --local user.name "YuhangSong"
+git config --local push.default "current"
+git config --local pull.default "current" 
+git config --local credential.helper "cache --timeout=36000000000000000"
 ```
 
 ## [Wallpapers](https://github.com/YuhangSong/Pictures)
