@@ -73,6 +73,14 @@ git config --local pull.default "current"
 git config --local credential.helper "cache --timeout=36000000000000000"
 ```
 
+```
+git config --global user.email "anonymous.due.to.review.policy@gmail.com"
+git config --global user.name "anonymous-due-to-review-policy"
+git config --global push.default "current"
+git config --global pull.default "current" 
+git config --global credential.helper "cache --timeout=36000000000000000"
+```
+
 ## [Wallpapers](https://github.com/YuhangSong/Pictures)
 
 ## SSH personal config
